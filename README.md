@@ -18,27 +18,24 @@ Podemos asignar el nombre que queramos, respetando no usar las palabras reservad
 
 * Válido 
 
-``
-  _variable = 10
+``_variable = 10``
 
-  vari_able = 20
+ ``vari_able = 20``
 
-  variable10 = 30
+ ``variable10 = 30``
 
-  variable = 60
+ ``variable = 60``
 
-  variaBle = 10
-``
+ ``variaBle = 10``
 
 * No válido
 
-``
-2variable = 10
 
-var-iable = 10
+``2variable = 10``
 
-var iable = 10
-``
+``var-iable = 10``
+
+``var iable = 10``
 
 ## Asignando valores a una variable
 
@@ -60,75 +57,69 @@ Los operadores aritméticos se utilizan prara realizar operaciones matemáticas 
 En python, ``+`` es el operador de suma. se utiliza para sumar 2 o más valores.
 Ejemplo:
 
-``
-valor1 = 2
+``valor1 = 2``
 
-valor2 = 3
-``
+``valor2 = 3``
 
 - usando el operador de adición
 
-``
-resul =  valor1 + valor2
+``resul =  valor1 + valor2``
 
-  print:("resultado")
+  ``print:("resultado")``
 
-  salida: 
+  ``salida: 
 
-  5``
+    5``
 
 ### Resta
 
 En python, ``-`` es el operador de sustracción. Se utiliza para restar el segundo del primer valor.
  Ejemplo:
  
- ``
- valor1 = 2
+ ``valor1 = 2``
  
- valor2 = 3
+ ``valor2 = 3``
   
- resul = valor1 - valor2
+ ``resul = valor1 - valor2``
  
-  print("resultado")
+  ``print("resultado")``
  
-  salida: 
+  ``salida: 
  
-  -1``
+   -1``
 
 ### Multiplicación
 En python, ``*`` es el operador de multiplicación. Se utiliza para encontrar el producto de 2 valores.
 Ejemplo:
 
-``
-valor1 = 2
+``valor1 = 2``
 
-valor2 = 3
+``valor2 = 3``
 
-resul = valor1 * valor2
+``resul = valor1 * valor2``
 
-  print:("resultado")
+  ``print:("resultado")``
   
-  salida:
+  ``salida:
 
-  6``
+    6``
 
 ### División
 
 En python, ``/`` es el operador de divición. se utiliza para encontrar el cociente cuando el primer operador se divide por el segundo.
 Ejemplo:
 
-``
-valor1 = 3
+``valor1 = 3``
 
-valor2 = 2
+``valor2 = 2``
 
-resul = valor1 / valor2
+``resul = valor1 / valor2``
 
-  print:("resultado")
+  ``print:("resultado")``
 
-  salida: 
+  ``salida: 
 
-   1.5``
+    1.5``
 
 ### Módulo
 
