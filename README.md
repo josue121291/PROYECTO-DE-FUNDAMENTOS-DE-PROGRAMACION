@@ -197,6 +197,7 @@ La estructura de control ``if``.... permite que un programa ejecute unas instruc
   * Si el resultado es ``False`` no se ejecuta el bloque de sentencias.
 
 La primera línea contiene la condición a evaluar y es una expresión lógica. Esta línea debe terminar siempre por dos puntos ``(:)``.
+
 Ejemplo de ``if``:
 
 ``
@@ -204,11 +205,12 @@ numero = int(input("escriba un nuemro positivo:"))``
 
 ``if numero < 0:``
 
-     ``print("¡Le he dicho que escriba un número positivo!)``
+   ``print("¡Le he dicho que escriba un número positivo!)``
      
 ``print(f"Ha escrito el numero {numero}")``
 
 salida:
+
 ``escriba un número positivo: -5``
 
 ``¡Le he dicho que imprimiera un número positivo!``
