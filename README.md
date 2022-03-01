@@ -8,8 +8,9 @@ Python es un lenguaje de programación de alto nivel, orientado a objetos, con u
 
 En algunos lenguajes de programación, las variables se pueden entender como "cajas" en las que se guardan los datos, pero en python las varriables son "etiquetas" que permiten hacer referenci a los datos ejemplo:
 
-´´´ python 
-a = 2´´´
+``` python 
+a = 2
+´´´
 ## Nombrando una variable
 
 ## Asignando valores a una variable
