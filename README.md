@@ -69,7 +69,7 @@ Ejemplo:
 
  salida: 
 
-    ``5``
+    5
 
 ### Resta
 
@@ -103,7 +103,7 @@ Ejemplo:
   
   salida:
 
-    ``6``
+    6
 
 ### División
 
@@ -120,7 +120,7 @@ Ejemplo:
 
   salida: 
 
-    ``1.5``
+    1.5
   
 
 ### Módulo
