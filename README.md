@@ -211,11 +211,11 @@ numero = int(input("escriba un nuemro positivo:"))``
 
 salida:
 
-``escriba un número positivo: -5``
+    escriba un número positivo: -5
 
-``¡Le he dicho que escriba un número positivo!``
+    ¡Le he dicho que escriba un número positivo!
 
-``Ha escrito el numero -5 ``
+    Ha escrito el numero -5 
 
 
 ## Sentencia if... else....
@@ -259,11 +259,11 @@ else:``
 
 salida
 
-``¿Cuántos años tiene? 17``
+    ¿Cuántos años tiene? 17
 
-``Es usted menor de edad``
+    Es usted menor de edad
 
-``¡Hasta pronto!``
+    ¡Hasta pronto!
 
 
 ## Ciclo For
