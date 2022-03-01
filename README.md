@@ -251,9 +251,9 @@ if edad < 18:``
 
 ``
 else:
-     print("Es usted mayor de edad")
+     print("Es usted mayor de edad")``
 
-print("¡Hasta la próxima!")``
+``print("¡Hasta la próxima!")``
 
 salida
 
