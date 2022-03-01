@@ -270,7 +270,34 @@ salida
 
 Los ciclos for son lo que se conoce como estructuras de control de flujo cíclicas o simplemente estructuras cíclicas, estos ciclos, como su nombre lo sugiere, nos permiten ejecutar una o varias líneas de código de forma iterativa, conociendo un valor especifico inicial y otro valor final, además nos permiten determinar el tamaño del paso entre cada "giro" o iteración del ciclo.
 
+Su sintaxis es la siguiente:
 
+``
+for <elem> in <iterable>:``
+   
+   ``<tu codigo>``
+   
+Aquí, ``elem`` es la variable que toma el valor del elemento dentro del iterador en cada paso del bucle. Este finaliza su ejecución cuando se recorren todos los elementos.
+
+Ejemplo:
+
+``
+nums = [4, 78, 9, 84]``
+
+``
+for n in nums:``
+
+``
+print(n)``
+
+salida
+
+``
+4
+78
+9
+84
+``
 
 ## Ciclo While
 
