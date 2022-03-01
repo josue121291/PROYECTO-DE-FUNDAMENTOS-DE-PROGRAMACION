@@ -292,12 +292,10 @@ print(n)``
 
 salida
 
-``
-4
-78
-9
-84
-``
+    4
+    78
+    9
+    84
 
 ## Ciclo While
 
