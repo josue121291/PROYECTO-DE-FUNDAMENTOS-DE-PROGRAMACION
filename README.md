@@ -143,21 +143,42 @@ Ejemplo:
 
 # Tipos de datos en Python
 
-
+Los tipos de datos básicos en Python son los siguientes:
 
 ## Integer
 
+Este tipo de de datos se corresponde con números enteros, es decir, sin parte decinmal.
+Ejemplo:
+
 ## Float
+
+Este tipo de dato corresponde con números reales con partes parte decimal. Cabe destacar que el separador decimal en Python es el punto ``.``y no la coma``,``.
+Ejemplo:
+
 
 ## String
 
-## Casting en Python
+Este tipo de datos corresponde con una cadena de caracteres.
+Ejemplo:
+
+
+# Casting en Python
 
 ## List
 
+Se trata de conjuntos ordenados de elementos, encerrados por corchetes y separdos por comas. el orden comienza con el índice 0 para el primer ligar d ela lista. pueden agruparse valores de distintos tipos de datos básicos, y es posible agregar, eliminar o modificar elemtos de las listas  en cualquier momento ( decimos que las listas son mutables en Python)
+
 ## Tuple
 
+El tuple o las tuplas son básicamente listas de elementos estática, es decir, que no pueden modificarse (decimos que el tuple es inmutable en Python). para su definicion en lugar de ``[]`` se encierran valores separdos por comas entre paréntesis ``(, , ,)``.
+Ejemplo:
+
+
 ## Dictionary
+
+En los diccionarios cada elemento se compone de un par clave-valor, y para su definición es necesario encerrar los elementos entre llaves. Es posible acceder a un valor utilizando su clave, pero no al revés. Por este motivo, no se pueden repetir las claves para elementos distintos, pero sí es posible agregar, eliminar o modificar valores (Los diccionarios son mutables).
+Ejemplo:
+
 
 # Tomando decisiones
 
