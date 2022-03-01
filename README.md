@@ -205,7 +205,7 @@ numero = int(input("escriba un nuemro positivo:"))``
 
 ``if numero < 0:``
 
-   ``print("¡Le he dicho que escriba un número positivo!)``
+``print("¡Le he dicho que escriba un número positivo!)``
      
 ``print(f"Ha escrito el numero {numero}")``
 
@@ -213,12 +213,62 @@ salida:
 
 ``escriba un número positivo: -5``
 
-``¡Le he dicho que imprimiera un número positivo!``
+``¡Le he dicho que escriba un número positivo!``
 
 ``Ha escrito el numero -5 ``
 
 
+## Sentencia if... else....
+
+La estructura de control ``if``.... ``else``... permite que un programa ejecute unas instrucciones cuando se cumple una condición y otras instrucciones cuando no se cumple esa condición. En inglés ``if`` significa ``si`` (condición) y ``else`` significa ``si no``. La orden en python se escribe asi:
+
+La sintaxis de la construccion ``if``... ``else``... es la siguiente:
+
+``
+if condición:``
+
+    "aquí van las órdenes que se ejecutan si la condición es cierta y que pueden ocupar varias líneas"``
+   
+ ``
+ else:
+     "y aqui van las que se ejecutan si la condicion es falsa y que tambien puedenocupar varias líneas."``
+     
+La ejecución de esta construcción es la siguiente:
+
+- La condición se evalúa siempre.
+* Si el resultado es ``True`` se ejecuta solamente el bloque de sentencia 1.
+* Si el resultado es ``False`` se ejecuta solamente el bloque de sentencia 2.
+
+La primera línea contiene la condición a evaluar. Esta línea debe terminar siempre por dos puntos ``(:)``.
+
+Ejemplo:
+
+``
+edad = int(input("¿Cuántos años tienes?"))
+if edad < 18:``
+
+    print("Es usted menor de edad")
+
+``
+else:
+     print("Es usted mayor de edad")
+
+print("¡Hasta la próxima!")``
+
+salida
+
+``¿Cuántos años tiene? 17``
+
+``Es usted menor de edad``
+
+``¡Hasta pronto!``
+
+
 ## Ciclo For
+
+Los ciclos for son lo que se conoce como estructuras de control de flujo cíclicas o simplemente estructuras cíclicas, estos ciclos, como su nombre lo sugiere, nos permiten ejecutar una o varias líneas de código de forma iterativa, conociendo un valor especifico inicial y otro valor final, además nos permiten determinar el tamaño del paso entre cada "giro" o iteración del ciclo.
+
+
 
 ## Ciclo While
 
