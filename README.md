@@ -205,9 +205,9 @@ numero = int(input("escriba un nuemro positivo:"))``
 
 ``if numero < 0:``
 
-``print("¡Le he dicho que escriba un número positivo!)``
+    print("¡Le he dicho que escriba un número positivo!)
      
-``print(f"Ha escrito el numero {numero}")``
+    print(f"Ha escrito el numero {numero}")
 
 salida:
 
@@ -253,9 +253,9 @@ if edad < 18:``
 ``
 else:``
 
-     print("Es usted mayor de edad")``
+     print("Es usted mayor de edad")
 
-``print("¡Hasta la próxima!")``
+    print("¡Hasta la próxima!")
 
 salida
 
@@ -287,8 +287,7 @@ nums = [4, 78, 9, 84]``
 ``
 for n in nums:``
 
-``
-print(n)``
+    print(n)
 
 salida
 
@@ -334,8 +333,65 @@ salida
     1
     2
     3
-    programa terminado
-
+  programa terminado``
+   
 ## Break 
 
+En Python, la instrucción``break`` le proporciona la oportunidad de cerrar un bucle cuando se activa una condición externa. Debe poner la instrucción ``break`` dentro del bloque de código bajo la instrucción de su bucle, generalmente después de una instrucción ``if`` condicional.
+
+Ejemplo:
+
+``
+numero = 0``
+
+`` 
+for numero in range(10):``
+  
+ ``
+    if numero = 5:
+        break
+        print("numero es" + str (numero))
+    print("out of loop")``
+    
+ salida 
+ 
+    numero es 0
+    numero es 1
+    numero es 2
+    numero es 3
+    numero es 4
+    out of loop 
+
 ## Continue
+
+La instrucción, ``continue`` da la opción de omitir la parte de un bucle en la que se activa una condición externa, pero continuar para completar el resto del bucle. Es decir, la iteración actual del bucle se interrumpirá, pero el programa volverá a la parte superior del bucle.
+
+La instrucción, ``continue`` se encuentra dentro del bloque de código abajo de la instrucción del bucle, generalmente después de una instrucción if condicional.
+
+Ejemplo:
+
+``
+numero = 0``
+
+`` 
+for numero in range(10):``
+
+    if numero = 5:
+        continue
+        print("numero es" + str (numero))
+    print("out of loop")``
+    
+ salida
+ 
+    numero es 0
+    numero es 1
+    numero es 2
+    numero es 3
+    numero es 4 
+    numero es 5
+    numero es 6
+    numero es 7
+    numero es 8
+    numero es 9
+    out of loop
+    
