@@ -65,8 +65,22 @@ Ejemplos:
 
 ## Operadores básicos
 
+Los operadores aritméticos se utilizan prara realizar operaciones matemáticas como la suma ``+``, resta``-``, multiplicación``*`` divición``/`` y el módulo``%``.
+
 ### Suma
 
+En python, ``+`` es el operador de suma. se utiliza para sumar 2 o más valores.
+Ejemplo:
+
+``valor1 = 2``
+``valor2 = 3``
+
+- usando el operador de adición
+
+``resultado =  valor1 + valor2
+print: "resultado"
+salida: 5
+``
 ### Resta
 
 ### Multiplicación
