@@ -86,7 +86,7 @@ En python, ``-`` es el operador de sustracción. Se utiliza para restar el segun
  
   salida: 
  
-   ``-1``
+   -1
   
 
 ### Multiplicación
@@ -138,7 +138,7 @@ Ejemplo:
 
   salida:
   
-  ``1``
+    1
  
 
 # Tipos de datos en Python
