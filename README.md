@@ -54,6 +54,15 @@ var iable = 10
 
 ## Asignando valores a una variable
 
+Para asignar un valor (un dato) a una variable se utiliza el operador de asignación ``=``.
+En la operacion de asignación se ven incolucradas tres parte:
+* El operador de asignación ``=``
+* Un identificador o nombre de variable, a la izquierda del operador.
+* Un literal, una expresión, una llamada a una función o una combinacion de todos ellos.
+Ejemplos:
+
+
+
 ## Operadores básicos
 
 ### Suma
