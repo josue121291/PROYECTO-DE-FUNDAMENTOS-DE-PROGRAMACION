@@ -67,10 +67,9 @@ Ejemplo:
 
   ``print:("resultado")``
 
-  ``salida: 
+ salida: 
 
-    5
-    ``
+    ``5``
 
 ### Resta
 
@@ -85,10 +84,10 @@ En python, ``-`` es el operador de sustracción. Se utiliza para restar el segun
  
   ``print("resultado")``
  
-  ``salida: 
+  salida: 
  
-   -1
-   ``
+   ``-1``
+  
 
 ### Multiplicación
 En python, ``*`` es el operador de multiplicación. Se utiliza para encontrar el producto de 2 valores.
@@ -102,10 +101,9 @@ Ejemplo:
 
   ``print:("resultado")``
   
-  ``salida:
+  salida:
 
-    6
-    ``
+    ``6``
 
 ### División
 
@@ -120,10 +118,10 @@ Ejemplo:
 
   ``print:("resultado")``
 
-  ``salida: 
+  salida: 
 
-    1.5
-   ``
+    ``1.5``
+  
 
 ### Módulo
 
@@ -138,10 +136,10 @@ Ejemplo:
 
   ``print:("resultado")``
 
-  ``salida:
+  salida:
   
-  1
-  ``
+  ``1``
+ 
 
 # Tipos de datos en Python
 
