@@ -317,23 +317,19 @@ La variable o las variables que aparezcan en la condición se suelen llamar vari
 Ejemplo:
 
 ``
-i = 1``
-
-``while i <= 3:``
-
-    print(i)
-      
-    i += 1
-
-print("programa terminado")
-``
-
+i = 1
+´´
+while i <= 3:
+   print(i)
+   i += 1
+   print("programa terminado")``
+   
 salida
 
     1
     2
     3
-  programa terminado``
+    programa terminado
    
 ## Break 
 
@@ -342,18 +338,14 @@ En Python, la instrucción``break`` le proporciona la oportunidad de cerrar un b
 Ejemplo:
 
 ``
-numero = 0``
-
-`` 
-for numero in range(10):``
-  
- ``
-    if numero = 5:
-        break
-        print("numero es" + str (numero))
+numero = 0
+for numero in range(10):
+if numero = 5:
+    break
+    print("numero es" + str (numero))
     print("out of loop")``
     
- salida 
+salida 
  
     numero es 0
     numero es 1
@@ -371,15 +363,12 @@ La instrucción, ``continue`` se encuentra dentro del bloque de código abajo de
 Ejemplo:
 
 ``
-numero = 0``
-
-`` 
-for numero in range(10):``
-
-    if numero = 5:
-        continue
-        print("numero es" + str (numero))
-    print("out of loop")``
+numero = 0
+for numero in range(10):
+if numero = 5:
+   continue
+   print("numero es" + str (numero))
+   print("out of loop")``
     
  salida
  
@@ -388,7 +377,6 @@ for numero in range(10):``
     numero es 2
     numero es 3
     numero es 4 
-    numero es 5
     numero es 6
     numero es 7
     numero es 8
