@@ -21,29 +21,37 @@ Podemos asignar el nombre que queramos, respetando no usar las palabras reservad
 ``
 _variable = 10
 ``
+
 ``
 vari_able = 20
 ``
+
 ``
 variable10 = 30
 ``
+
 ``
 variable = 60
 ``
+
 ``
 variaBle = 10
 ``
 
 * No válido
+
 ``
 2variable = 10
 ``
+
 ``
 var-iable = 10
 ``
+
 ``
 var iable = 10
 ``
+
 ## Asignando valores a una variable
 
 ## Operadores básicos
