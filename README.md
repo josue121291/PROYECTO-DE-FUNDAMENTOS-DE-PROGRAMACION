@@ -200,15 +200,20 @@ La primera línea contiene la condición a evaluar y es una expresión lógica. 
 Ejemplo de ``if``:
 
 ``
-numero = int(input("escriba un nuemro positivo:"))
-if numero < 0:
-     print("¡Le he dicho que escriba un número positivo!)
-print(f"Ha escrito el numero {numero}")``
+numero = int(input("escriba un nuemro positivo:"))``
+
+``if numero < 0:``
+
+     ``print("¡Le he dicho que escriba un número positivo!)``
+     
+``print(f"Ha escrito el numero {numero}")``
 
 salida:
-``escriba un número positivo: -5
-¡Le he dicho que imprimiera un número positivo!
-Ha escrito el numero -5 ``
+``escriba un número positivo: -5``
+
+``¡Le he dicho que imprimiera un número positivo!``
+
+``Ha escrito el numero -5 ``
 
 
 ## Ciclo For
