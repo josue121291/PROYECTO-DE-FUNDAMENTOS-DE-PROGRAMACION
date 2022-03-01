@@ -69,7 +69,8 @@ Ejemplo:
 
   ``salida: 
 
-    5``
+    5
+    ``
 
 ### Resta
 
@@ -86,7 +87,8 @@ En python, ``-`` es el operador de sustracción. Se utiliza para restar el segun
  
   ``salida: 
  
-   -1``
+   -1
+   ``
 
 ### Multiplicación
 En python, ``*`` es el operador de multiplicación. Se utiliza para encontrar el producto de 2 valores.
@@ -102,7 +104,8 @@ Ejemplo:
   
   ``salida:
 
-    6``
+    6
+    ``
 
 ### División
 
@@ -119,23 +122,23 @@ Ejemplo:
 
   ``salida: 
 
-    1.5``
+    1.5
+   ``
 
 ### Módulo
 
 En python, ``%`` es el operador de módulo. Se utiliza para encontrar el resto cuando el primer operador se divide por el segundo.
 Ejemplo:
 
-``
-valor1 = 3
+``valor1 = 3``
 
-valor2 = 2
+``valor2 = 2``
 
-resul = valor1 % valor2
+``resul = valor1 % valor2``
 
-  print:("resultado")
+  ``print:("resultado")``
 
-  salida:
+  ``salida:
   
   1
   ``
