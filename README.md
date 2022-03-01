@@ -318,10 +318,13 @@ La variable o las variables que aparezcan en la condición se suelen llamar vari
 Ejemplo:
 
 ``
-i = 1
-while i <= 3:
-    print(i)
-    i += 1``
+i = 1``
+
+``while i <= 3:``
+
+    ``print(i)``
+      
+    ``i += 1``
 
 ``
 print("programa terminado")
