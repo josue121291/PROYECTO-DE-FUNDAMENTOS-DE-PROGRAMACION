@@ -322,11 +322,10 @@ i = 1``
 
 ``while i <= 3:``
 
-    ``print(i)``
+    print(i)
       
-    ``i += 1``
+    i += 1
 
-``
 print("programa terminado")
 ``
 
