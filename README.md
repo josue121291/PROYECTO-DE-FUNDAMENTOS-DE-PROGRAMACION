@@ -230,7 +230,8 @@ if condición:``
     "aquí van las órdenes que se ejecutan si la condición es cierta y que pueden ocupar varias líneas"``
    
  ``
- else:
+ else:``
+ 
      "y aqui van las que se ejecutan si la condicion es falsa y que tambien puedenocupar varias líneas."``
      
 La ejecución de esta construcción es la siguiente:
@@ -250,7 +251,8 @@ if edad < 18:``
     print("Es usted menor de edad")
 
 ``
-else:
+else:``
+
      print("Es usted mayor de edad")``
 
 ``print("¡Hasta la próxima!")``
