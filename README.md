@@ -319,10 +319,12 @@ Ejemplo:
 ``
 i = 1
 ´´
+´´
 while i <= 3:
-  print(i)
-     i += 1
-     print("programa terminado")``
+``
+``print(i)
+   i += 1
+   print("programa terminado")``
    
 salida
 
@@ -344,11 +346,13 @@ numero = 0
 for numero in range(10):``
 
 ``
-if numero = 5:``
+    if numero = 5:
 ``
-  break
-  print("numero es" + str (numero))
-   print("out of loop")``
+``
+       break
+``
+  ``print("numero es" + str(numero))
+ print("out of loop")``
     
 salida 
  
@@ -369,12 +373,20 @@ Ejemplo:
 
 ``
 numero = 0
-for numero in range(10):
-if numero = 5:
-   continue
+
+``
+``
+for numero in range(10):``
+
+`` 
+    if numero = 5:
+``
+``
+        continue
    print("numero es" + str (numero))
-   print("out of loop")``
-    
+print("out of loop")
+``
+
  salida
  
     numero es 0
