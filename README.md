@@ -340,9 +340,9 @@ En Python, la instrucción``break`` le proporciona la oportunidad de cerrar un b
 Ejemplo:
 
 ``
-numero=0``
-``
-  for numero in range(10):``
+numero=0
+
+for numero in range(10):``
      
      if numero = 5
       break
@@ -367,8 +367,8 @@ La instrucción, ``continue`` se encuentra dentro del bloque de código abajo de
 Ejemplo:
 
 ``
-numero = 0``
-``
+numero = 0
+
 for numero in range(10):``
    
     if numero = 5
