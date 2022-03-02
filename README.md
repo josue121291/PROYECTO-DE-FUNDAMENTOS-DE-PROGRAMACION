@@ -41,8 +41,11 @@ Podemos asignar el nombre que queramos, respetando no usar las palabras reservad
 
 Para asignar un valor (un dato) a una variable se utiliza el operador de asignación ``=``.
 En la operacion de asignación se ven incolucradas tres parte:
+
 *El operador de asignación ``=``
+
 *Un identificador o nombre de variable, a la izquierda del operador.
+
 *Un literal, una expresión, una llamada a una función o una combinacion de todos ellos.
 Ejemplos:
 
@@ -151,8 +154,11 @@ Este tipo de de datos se corresponde con números enteros, es decir, sin parte d
 Ejemplo:
 
 ``x = 9``
+
 ``y = 64521``
+
 ``z = -254``
+
     *esto te permite sumar dos variables directamente.
     
     print(y + z)
@@ -163,7 +169,9 @@ Este tipo de dato corresponde con números reales con partes parte decimal. Cabe
 Ejemplo:
 
  ``x = 1.10``
+ 
  ``y = 2.50``
+ 
  ``z = -65.41``
    
     print(x)
@@ -175,7 +183,9 @@ Este tipo de datos corresponde con una cadena de caracteres.
 Ejemplo:
 
 ``cadena = "programa de python"``
+
 ``type(cadena)``
+
 ``<class "str">``
 
     print("cadena")
@@ -211,7 +221,7 @@ Ejemplo:
     
  ``lista3 = [1, 5, 7, 9, 3]``
  
-    print:("lista3"
+    print:("lista3")
 
 salida
 
@@ -226,13 +236,69 @@ salida
 El tuple o las tuplas son básicamente listas de elementos estática, es decir, que no pueden modificarse (decimos que el tuple es inmutable en Python). para su definicion en lugar de ``[]`` se encierran valores separdos por comas entre paréntesis ``(, , ,)``.
 Ejemplo:
 
+``mi_tuple1 = (1, 2, 3)``
+
+    print:("mi_tuple1)
+
+salida
+   
+    1
+    2
+    3
+    
+
+``mi_tuple2 = (1, "Hello", 3.4)``
+
+    print:("mi_tuple2)
+
+salida
+
+    1
+    Hello
+    3
+    4
+    
+``
+mi_tuple3 = ("mouse", [8, 4, 6], (1, 2, 3))``
+
+    print:("mi_tuple3)
+    
+salida
+
+    mouse
+    8
+    4
+    6
+    1
+    2
+    3
 
 ## Dictionary
 
 En los diccionarios cada elemento se compone de un par clave-valor, y para su definición es necesario encerrar los elementos entre llaves. Es posible acceder a un valor utilizando su clave, pero no al revés. Por este motivo, no se pueden repetir las claves para elementos distintos, pero sí es posible agregar, eliminar o modificar valores (Los diccionarios son mutables).
 Ejemplo:
 
+``my_diccionario1 = {'nombre': 'Jack', 'edad': 26}``
 
+    print(mi_diccionario1['nombre'])
+    
+    print(mi_diccionario.get('edad'))
+    
+    print(mi_diccionario.get('dirección'))
+    
+    print(mi_diccionario['dirreción'])
+
+salida
+
+    Jack
+    26
+    None
+    Traceback (most recent call last):
+    File "<string>", line 15, in <module>
+    print(my_dict['address'])
+    KeyError: 'address'
+      
+      
 # Tomando decisiones
 
 ## Sentencia if
