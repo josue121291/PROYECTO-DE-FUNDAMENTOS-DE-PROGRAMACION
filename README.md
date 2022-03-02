@@ -245,7 +245,9 @@ La primera línea contiene la condición a evaluar. Esta línea debe terminar si
 Ejemplo:
 
 ``
-edad = int(input("¿Cuántos años tienes?"))
+edad = int(input("¿Cuántos años tienes?"))``
+
+``
 if edad < 18:``
 
     print("Es usted menor de edad")
@@ -340,7 +342,9 @@ En Python, la instrucción``break`` le proporciona la oportunidad de cerrar un b
 Ejemplo:
 
 ``
-numero=0
+numero=0``
+
+``
 for numero in range(10):``
      
      if numero = 5
@@ -366,9 +370,11 @@ La instrucción, ``continue`` se encuentra dentro del bloque de código abajo de
 Ejemplo:
 
 ``
-numero = 0
+numero = 0``
+
+``
 for numero in range(10):``
-   
+
     if numero = 5
       continue
        print("numero es" + str(numero))
