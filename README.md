@@ -150,23 +150,76 @@ Los tipos de datos básicos en Python son los siguientes:
 Este tipo de de datos se corresponde con números enteros, es decir, sin parte decinmal.
 Ejemplo:
 
+``x = 9``
+``y = 64521``
+``z = -254``
+    *esto te permite sumar dos variables directamente.
+    
+    print(y + z)
+
 ## Float
 
 Este tipo de dato corresponde con números reales con partes parte decimal. Cabe destacar que el separador decimal en Python es el punto ``.``y no la coma``,``.
 Ejemplo:
 
-
+ ``x = 1.10``
+ ``y = 2.50``
+ ``z = -65.41``
+   
+    print(x)
+    print(x - z)
+   
 ## String
 
 Este tipo de datos corresponde con una cadena de caracteres.
 Ejemplo:
 
+``cadena = "programa de python"``
+``type(cadena)``
+``<class "str">``
+
+    print("cadena")
+    
 
 # Casting en Python
 
 ## List
 
 Se trata de conjuntos ordenados de elementos, encerrados por corchetes y separdos por comas. el orden comienza con el índice 0 para el primer ligar d ela lista. pueden agruparse valores de distintos tipos de datos básicos, y es posible agregar, eliminar o modificar elemtos de las listas  en cualquier momento ( decimos que las listas son mutables en Python)
+
+Ejemplo:
+
+``lista1 = ["cuaderno", "lápiz", "libro"]``
+ 
+    print:("lista1")
+  
+  salida
+  
+    cuaderno
+    lápiz
+    libro
+ 
+ ``lista2 = ["manzana", "uva", "pera"]``
+ 
+    print:("lista2")
+    
+ salida
+ 
+    manzana
+    uva
+    pera
+    
+ ``lista3 = [1, 5, 7, 9, 3]``
+ 
+    print:("lista3"
+
+salida
+
+    1
+    5
+    7
+    9
+    3
 
 ## Tuple
 
