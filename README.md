@@ -50,18 +50,25 @@ var iable = 10
 Para asignar un valor (un dato) a una variable se utiliza el operador de asignación ``=``.
 En la operacion de asignación se ven incolucradas tres parte:
 
-*El operador de asignación ``=``
+* El operador de asignación ``=``
 
-*Un identificador o nombre de variable, a la izquierda del operador.
+* Un identificador o nombre de variable, a la izquierda del operador.
 
-*Un literal, una expresión, una llamada a una función o una combinacion de todos ellos.
-Ejemplos:
-
+* Un literal, una expresión, una llamada a una función o una combinacion de todos ellos.
 
 
 ## Operadores básicos
 
 Los operadores aritméticos se utilizan prara realizar operaciones matemáticas como la suma ``+``, resta``-``, multiplicación``*`` divición``/`` y el módulo``%``.
+
+Ejemplos:
+``` python
+suma = +
+resta = -
+multiplicación = *
+división = /
+módulo = %
+```
 
 ### Suma
 
@@ -69,11 +76,11 @@ En python, ``+`` es el operador de suma. se utiliza para sumar 2 o más valores.
 
 Ejemplo:
 
-``python
+```python
 valor1 = 2
 
 valor2 = 3
-
+```
 - usando el operador de adición
 
 ```python
@@ -300,11 +307,11 @@ salida
     
 Ejemplo2:
 
-``
+```python
 mi_tuple2 = (1, "Hello", 3.4)``
 
     print:("mi_tuple2)
-
+```
 salida
 
     1
@@ -370,8 +377,8 @@ La estructura de control ``if``.... permite que un programa ejecute unas instruc
         y que pueden ocupar varias lineas".
         ``
 - La condición se evalua siempre.
-  *Si el resultado es ``True`` se ejecuta el bloque de sentencias.
-  *Si el resultado es ``False`` no se ejecuta el bloque de sentencias.
+  * Si el resultado es ``True`` se ejecuta el bloque de sentencias.
+  * Si el resultado es ``False`` no se ejecuta el bloque de sentencias.
 
 La primera línea contiene la condición a evaluar y es una expresión lógica. Esta línea debe terminar siempre por dos puntos ``(:)``.
 
@@ -414,8 +421,8 @@ if condición:
 La ejecución de esta construcción es la siguiente:
 
 - La condición se evalúa siempre.
-*Si el resultado es ``True`` se ejecuta solamente el bloque de sentencia 1.
-*Si el resultado es ``False`` se ejecuta solamente el bloque de sentencia 2.
+* Si el resultado es ``True`` se ejecuta solamente el bloque de sentencia 1.
+* Si el resultado es ``False`` se ejecuta solamente el bloque de sentencia 2.
 
 La primera línea contiene la condición a evaluar. Esta línea debe terminar siempre por dos puntos ``(:)``.
 
@@ -486,8 +493,8 @@ while condición:
  La ejecución de esta estructura de control ``while`` es la siguiente:
  
  - Python evalúa la condición:
- *si el resultado es ``True``, se ejecuta el cuerpo del bucle. Una vez ejecutado el cuerpo del bucle, se repite el proceso (se evalúa de nuevo la condición y, si es cierta, se ejecuta de nuevo el cuerpo del bucle) una y otra vez mientras la condición sea cierta.
- *si el resultado es ``False``, el cuerpo del bucle no se ejecuta y continúa la ejecución del resto del programa.
+ * si el resultado es ``True``, se ejecuta el cuerpo del bucle. Una vez ejecutado el cuerpo del bucle, se repite el proceso (se evalúa de nuevo la condición y, si es cierta, se ejecuta de nuevo el cuerpo del bucle) una y otra vez mientras la condición sea cierta.
+ * si el resultado es ``False``, el cuerpo del bucle no se ejecuta y continúa la ejecución del resto del programa.
 
 La variable o las variables que aparezcan en la condición se suelen llamar variables de control. Las variables de control deben definirse antes del bucle ``while`` y modificarse en el bucle ``while``.
 
