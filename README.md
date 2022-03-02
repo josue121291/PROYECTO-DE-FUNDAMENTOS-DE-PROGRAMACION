@@ -223,6 +223,19 @@ type(cadena)
 
 # Casting en Python
 
+Hacer un cast o casting significa convertir un tipo de dato a otro. Anteriormente hemos visto tipos como los int, string o float. Pues bien, es posible convertir de un tipo a otro.
+
+```python
+a = 1   # <class 'int'>  
+b = 2.3 # <class 'float'>  
+a = a + b  
+print(a)       # 3.3  
+print(type(a)) # <class 'float'>
+```
+
+Existen dos:
+Conversión implícita: Es realizada automáticamente por Python. Sucede cuando realizamos ciertas operaciónes con dos tipos distintos.
+
 ## List
 
 Se trata de conjuntos ordenados de elementos, encerrados por corchetes y separdos por comas. el orden comienza con el índice 0 para el primer ligar d ela lista. pueden agruparse valores de distintos tipos de datos básicos, y es posible agregar, eliminar o modificar elemtos de las listas  en cualquier momento ( decimos que las listas son mutables en Python)
