@@ -341,7 +341,6 @@ Ejemplo:
 
 ``
 numero=0
-
 for numero in range(10):``
      
      if numero = 5
@@ -368,7 +367,6 @@ Ejemplo:
 
 ``
 numero = 0
-
 for numero in range(10):``
    
     if numero = 5
