@@ -6,36 +6,44 @@ Python es un lenguaje de programación de alto nivel, orientado a objetos, con u
 
 # ¿Qué es una variable?
 
-En algunos lenguajes de programación, las variables se pueden entender como "cajas" en las que se guardan los datos, pero en python las varriables son "etiquetas" que permiten hacer referenci a los datos ejemplo:
+En algunos lenguajes de programación, las variables se pueden entender como "cajas" en las que se guardan los datos, pero en python las varriables son "etiquetas" que permiten hacer referenci a los datos 
 
-`` 
+Ejemplo:
+
+```python
 a = 2
-``
+```
 
 ## Nombrando una variable
 
-Podemos asignar el nombre que queramos, respetando no usar las palabras reservadas de Python ni espacios, guiones o numeros al principio. ejemplo:
+Podemos asignar el nombre que queramos, respetando no usar las palabras reservadas de Python ni espacios, guiones o numeros al principio. 
+
+Ejemplo:
 
 * Válido 
 
-``_variable = 10``
+```python
+_variable = 10
 
- ``vari_able = 20``
+ vari_able = 20
 
- ``variable10 = 30``
+ variable10 = 30
 
- ``variable = 60``
+ variable = 60
 
- ``variaBle = 10``
+ variaBle = 10
+ ```
 
 * No válido
 
 
-``2variable = 10``
+```python
+2variable = 10
 
-``var-iable = 10``
+var-iable = 10
 
-``var iable = 10``
+var iable = 10
+```
 
 ## Asignando valores a una variable
 
@@ -58,18 +66,21 @@ Los operadores aritméticos se utilizan prara realizar operaciones matemáticas 
 ### Suma
 
 En python, ``+`` es el operador de suma. se utiliza para sumar 2 o más valores.
+
 Ejemplo:
 
-``valor1 = 2``
+``python
+valor1 = 2
 
-``valor2 = 3``
+valor2 = 3
 
 - usando el operador de adición
 
-``resul =  valor1 + valor2``
+```python
+resul =  valor1 + valor2
 
-  ``print:("resultado")``
-
+  print:("resultado")
+```
  salida: 
 
     5
@@ -77,15 +88,17 @@ Ejemplo:
 ### Resta
 
 En python, ``-`` es el operador de sustracción. Se utiliza para restar el segundo del primer valor.
+
  Ejemplo:
  
- ``valor1 = 2``
+ ```python
+ valor1 = 2
  
- ``valor2 = 3``
+ valor2 = 3
   
- ``resul = valor1 - valor2``
- 
-  ``print("resultado")``
+ resul = valor1 - valor2
+ ```
+    print("resultado")
  
   salida: 
  
@@ -94,15 +107,18 @@ En python, ``-`` es el operador de sustracción. Se utiliza para restar el segun
 
 ### Multiplicación
 En python, ``*`` es el operador de multiplicación. Se utiliza para encontrar el producto de 2 valores.
+
 Ejemplo:
 
-``valor1 = 2``
+```python
+valor1 = 2
 
-``valor2 = 3``
+valor2 = 3
 
-``resul = valor1 * valor2``
+resul = valor1 * valor2
 
-  ``print:("resultado")``
+  print:("resultado")
+```
   
   salida:
 
@@ -111,16 +127,18 @@ Ejemplo:
 ### División
 
 En python, ``/`` es el operador de divición. se utiliza para encontrar el cociente cuando el primer operador se divide por el segundo.
+
 Ejemplo:
 
-``valor1 = 3``
+```python
+valor1 = 3
 
-``valor2 = 2``
+valor2 = 2
 
-``resul = valor1 / valor2``
+resul = valor1 / valor2
 
-  ``print:("resultado")``
-
+  print:("resultado")
+```
   salida: 
 
     1.5
@@ -129,15 +147,18 @@ Ejemplo:
 ### Módulo
 
 En python, ``%`` es el operador de módulo. Se utiliza para encontrar el resto cuando el primer operador se divide por el segundo.
+
 Ejemplo:
 
-``valor1 = 3``
+```python
+valor1 = 3
 
-``valor2 = 2``
+valor2 = 2
 
-``resul = valor1 % valor2``
+resul = valor1 % valor2
 
-  ``print:("resultado")``
+  print:("resultado")
+  ```
 
   salida:
   
@@ -151,45 +172,54 @@ Los tipos de datos básicos en Python son los siguientes:
 ## Integer
 
 Este tipo de de datos se corresponde con números enteros, es decir, sin parte decinmal.
+
 Ejemplo:
 
-``x = 9``
+```python
+x = 9
 
-``y = 64521``
+y = 64521
 
-``z = -254``
+z = -254
+
 
     *esto te permite sumar dos variables directamente.
     
     print(y + z)
+  ```
 
 ## Float
 
 Este tipo de dato corresponde con números reales con partes parte decimal. Cabe destacar que el separador decimal en Python es el punto ``.``y no la coma``,``.
+
 Ejemplo:
 
- ``x = 1.10``
+ ```python
+ x = 1.10
  
- ``y = 2.50``
+ y = 2.50
  
- ``z = -65.41``
+ z = -65.41
    
     print(x)
     print(x - z)
+  ```
    
 ## String
 
 Este tipo de datos corresponde con una cadena de caracteres.
+
 Ejemplo:
 
-``cadena = "programa de python"``
+```python
+cadena = "programa de python"
 
-``type(cadena)``
+type(cadena)
 
-``<class "str">``
+<class "str">
 
     print("cadena")
-    
+ ```   
 
 # Casting en Python
 
@@ -197,32 +227,39 @@ Ejemplo:
 
 Se trata de conjuntos ordenados de elementos, encerrados por corchetes y separdos por comas. el orden comienza con el índice 0 para el primer ligar d ela lista. pueden agruparse valores de distintos tipos de datos básicos, y es posible agregar, eliminar o modificar elemtos de las listas  en cualquier momento ( decimos que las listas son mutables en Python)
 
-Ejemplo:
+Ejemplo1:
 
-``lista1 = ["cuaderno", "lápiz", "libro"]``
+```python
+lista1 = ["cuaderno", "lápiz", "libro"]
  
     print:("lista1")
-  
-  salida
+ ```
+salida
   
     cuaderno
     lápiz
     libro
  
- ``lista2 = ["manzana", "uva", "pera"]``
+Ejemplo2:
+ 
+ ```python
+ lista2 = ["manzana", "uva", "pera"]
  
     print:("lista2")
-    
+ ``` 
  salida
  
     manzana
     uva
     pera
-    
- ``lista3 = [1, 5, 7, 9, 3]``
+  
+Ejemplo3:
+
+ ```python
+ lista3 = [1, 5, 7, 9, 3]
  
     print:("lista3")
-
+```
 salida
 
     1
@@ -234,20 +271,24 @@ salida
 ## Tuple
 
 El tuple o las tuplas son básicamente listas de elementos estática, es decir, que no pueden modificarse (decimos que el tuple es inmutable en Python). para su definicion en lugar de ``[]`` se encierran valores separdos por comas entre paréntesis ``(, , ,)``.
-Ejemplo:
 
-``mi_tuple1 = (1, 2, 3)``
+Ejemplo1:
+
+```python
+mi_tuple1 = (1, 2, 3)
 
     print:("mi_tuple1)
-
+```
 salida
    
     1
     2
     3
     
+Ejemplo2:
 
-``mi_tuple2 = (1, "Hello", 3.4)``
+``
+mi_tuple2 = (1, "Hello", 3.4)``
 
     print:("mi_tuple2)
 
@@ -258,11 +299,13 @@ salida
     3
     4
     
-``
-mi_tuple3 = ("mouse", [8, 4, 6], (1, 2, 3))``
+Ejemplo3:
+
+```python
+mi_tuple3 = ("mouse", [8, 4, 6], (1, 2, 3))
 
     print:("mi_tuple3)
-    
+```    
 salida
 
     mouse
@@ -276,9 +319,11 @@ salida
 ## Dictionary
 
 En los diccionarios cada elemento se compone de un par clave-valor, y para su definición es necesario encerrar los elementos entre llaves. Es posible acceder a un valor utilizando su clave, pero no al revés. Por este motivo, no se pueden repetir las claves para elementos distintos, pero sí es posible agregar, eliminar o modificar valores (Los diccionarios son mutables).
+
 Ejemplo:
 
-``my_diccionario1 = {'nombre': 'Jack', 'edad': 26}``
+```python
+my_diccionario1 = {'nombre': 'Jack', 'edad': 26}
 
     print(mi_diccionario1['nombre'])
     
@@ -287,7 +332,7 @@ Ejemplo:
     print(mi_diccionario.get('dirección'))
     
     print(mi_diccionario['dirreción'])
-
+```
 salida
 
     Jack
@@ -319,15 +364,15 @@ La primera línea contiene la condición a evaluar y es una expresión lógica. 
 
 Ejemplo de ``if``:
 
-``
-numero = int(input("escriba un nuemro positivo:"))``
+```python
+numero = int(input("escriba un nuemro positivo:"))
 
-``if numero < 0:``
+if numero < 0:
 
     print("¡Le he dicho que escriba un número positivo!)
      
     print(f"Ha escrito el numero {numero}")
-
+```
 salida:
 
     escriba un número positivo: -5
@@ -343,15 +388,15 @@ La estructura de control ``if``.... ``else``... permite que un programa ejecute 
 
 La sintaxis de la construccion ``if``... ``else``... es la siguiente:
 
-``
-if condición:``
+```python
+if condición:
 
-    "aquí van las órdenes que se ejecutan si la condición es cierta y que pueden ocupar varias líneas"``
+    "aquí van las órdenes que se ejecutan si la condición es cierta y que pueden ocupar varias líneas"
    
- ``
- else:``
+ else:
  
-     "y aqui van las que se ejecutan si la condicion es falsa y que tambien puedenocupar varias líneas."``
+     "y aqui van las que se ejecutan si la condicion es falsa y que tambien puedenocupar varias líneas."
+ ```
      
 La ejecución de esta construcción es la siguiente:
 
@@ -363,21 +408,19 @@ La primera línea contiene la condición a evaluar. Esta línea debe terminar si
 
 Ejemplo:
 
-``
-edad = int(input("¿Cuántos años tienes?"))``
+```python
+edad = int(input("¿Cuántos años tienes?"))
 
-``
-if edad < 18:``
+if edad < 18:
 
     print("Es usted menor de edad")
-
-``
-else:``
+    
+else:
 
      print("Es usted mayor de edad")
 
     print("¡Hasta la próxima!")
-
+```
 salida
 
     ¿Cuántos años tiene? 17
@@ -393,23 +436,23 @@ Los ciclos for son lo que se conoce como estructuras de control de flujo cíclic
 
 Su sintaxis es la siguiente:
 
-``
-for <elem> in <iterable>:``
+```python
+for <elem> in <iterable>:
    
-   ``<tu codigo>``
+   <tu codigo>
+```
    
 Aquí, ``elem`` es la variable que toma el valor del elemento dentro del iterador en cada paso del bucle. Este finaliza su ejecución cuando se recorren todos los elementos.
 
 Ejemplo:
 
-``
-nums = [4, 78, 9, 84]``
+```python
+nums = [4, 78, 9, 84]
 
-``
-for n in nums:``
+for n in nums:
 
     print(n)
-
+```
 salida
 
     4
@@ -422,11 +465,11 @@ salida
 Un bucle ``wile`` permite repetir la ejecución de un grupo de instrucciones mientras se cumpla una condición (es decir, mientras la condición tenga el valor ``True``).
 La sintaxis del bucle``while`` es la siguiente:
 
-``
-while condición:``
+```python
+while condición:
 
     cuerpo del bucle
-    
+ ```   
  La ejecución de esta estructura de control ``while`` es la siguiente:
  
  - Python evalúa la condición:
@@ -437,15 +480,14 @@ La variable o las variables que aparezcan en la condición se suelen llamar vari
 
 Ejemplo:
 
-``
-i = 3``
-
-``
-  while i <= 3:``
+```python
+i = 3
+  while i <= 3:
   
     print(i)
     i += 1
-    print("programa terminado")``
+    print("programa terminado")
+```
    
 salida
 
@@ -460,17 +502,16 @@ En Python, la instrucción``break`` le proporciona la oportunidad de cerrar un b
 
 Ejemplo:
 
-``
-numero=0``
+```python
+numero=0
 
-``
-for numero in range(10):``
+for numero in range(10):
      
      if numero = 5
       break
       print("numero es" + str(numero))
-      print("out of loop")``
-    
+      print("out of loop")
+```    
 salida 
  
     numero es 0
@@ -488,17 +529,16 @@ La instrucción, ``continue`` se encuentra dentro del bloque de código abajo de
 
 Ejemplo:
 
-``
-numero = 0``
+```python
+numero = 0
 
-``
-for numero in range(10):``
+for numero in range(10):
 
     if numero = 5
       continue
        print("numero es" + str(numero))
-       print("out of loop")``
-
+       print("out of loop")
+```
  salida
  
     numero es 0
